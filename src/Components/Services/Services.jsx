@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import './ServicesStyle.css';
 
 import Digital from '../../assets/services-img/digital.jpg'
-import Faces from '../../assets/services-img/Faces.jpg'
-import PerformingArts from '../../assets/services-img/Performingarts.jpg'
-import Productions from '../../assets/services-img/Productions.jpg'
+import Faces from '../../assets/services-img/faces.jpg'
+import PerformingArts from '../../assets/services-img/performingarts.jpg'
+import Productions from '../../assets/services-img/productions.jpg'
 
 
 function Service(props) {
