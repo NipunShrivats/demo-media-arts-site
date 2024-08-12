@@ -1,0 +1,20 @@
+.title {
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.title p {
+    color: var(--theme-color-bg);
+}
+
+.title h2 {
+    color: #000F38;
+    font-size: 32px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}

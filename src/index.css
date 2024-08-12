@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --theme-color-bg: rgb(250, 106, 54);
+    --theme-color-highlight: rgba(255, 68, 0, 0.247);
+    --theme-color-highlight1: rgb(250, 106, 54);
+    --theme-color-highlight2: rgb(180, 57, 12);
+    --theme-color-input: rgb(255, 225, 214);
+
+}
+
+svg {
+    color: white;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background: #F5F5F5;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn {
+    background: #fff;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+
+}
+
+.btn:hover {
+    background: #cfcfcf;
+
+}
+
+.btn.dark-btn {
+    /* background: #212EA0; */
+    background: var(--theme-color-bg);
+    color: white;
+    transition: 0.5s;
+}
+
+.btn.dark-btn:hover {
+    /* background: #212EA0; */
+    background: rgb(255, 137, 94);
+}
+
+.btn span {
+    /* border: 2px solid red; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.btn-wp {
+    /* border: 1px solid green */
+    transition: 0.5s;
+}
+
+.btn-wp:hover {
+    background-color: rgb(65, 210, 65);
+}
+
+li {
+    /* text-decoration: none; */
+    list-style: none;
+    /* color: white; */
+}
+
+.loader-cover {
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------- media query ------------- */
+
+@media (max-width:1200px) {
+    .conatainer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .btn {
+        padding: 14px 22px;
+    }
+
+    .loader {
+        font-size: 2rem;
+    }
+}
