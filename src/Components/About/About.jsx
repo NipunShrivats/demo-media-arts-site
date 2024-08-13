@@ -9,7 +9,8 @@ export default function About({ setPlayState }) {
         <>
             <div className='about'>
                 <div className='about-left'>
-                    <img src={aboutImg} className='about-img' alt="" />
+                    {/* <img src={aboutImg} className='about-img' alt="" /> */}
+                    <div className='about-img'></div>
                     <img src={playIcon} className='play-icon' alt="" onClick={() => { setPlayState(true) }} />
                 </div>
                 <div className='about-right'>
