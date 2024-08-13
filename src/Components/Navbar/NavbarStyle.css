@@ -144,7 +144,7 @@ nav span {
     }
 
     nav ul {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         position: fixed;
         flex-direction: column;
         justify-content: flex-start;
