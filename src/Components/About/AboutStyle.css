@@ -21,6 +21,24 @@
     flex-basis: 56%;
 }
 
+.about-right h2 {
+    margin-bottom: .5rem;
+}
+
+.about-right ul {
+    /* border: 2px solid red; */
+    margin: .5rem 0 0 1.3rem;
+    gap: .2rem;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+}
+
+.about-right ul li {
+    list-style-type: disc;
+    /* border: 2px solid red; */
+}
+
 .about-img {
     width: 90%;
     border-radius: 10px;
@@ -43,6 +61,11 @@
 /* ------------- media query ------------- */
 
 @media(max-width:800px) {
+    .about-img {
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
     .about {
         flex-direction: column;
 
@@ -54,4 +77,39 @@
         order: 2;
         /* order will determine order of image  */
     }
+
+    .about-right h2 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .about-right p {
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .about-right div {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-right ul {
+        /* border: 2px solid red; */
+        margin: .5rem 0 0 1.3rem;
+        gap: .2rem;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* width: 80%; */
+    }
+
+    .about-right ul li {
+        font-size: .8rem;
+        list-style-type: disc;
+        /* border: 2px solid red; */
+    }
+
 }

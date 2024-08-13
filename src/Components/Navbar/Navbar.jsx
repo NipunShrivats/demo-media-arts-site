@@ -3,8 +3,10 @@ import "./NavbarStyle.css"
 import logow from "../../assets/imgAssets/logo-white.png"
 import logob from "../../assets/imgAssets/logo-black.png"
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
-import { RxHamburgerMenu } from "react-icons/rx";
 import MenuIcon from "../../assets/imgAssets/menu-icon.png"
+
+import Logo from "../../assets/imgAssets/logo.png"
+
 
 export default function Navbar() {
 
@@ -24,7 +26,7 @@ export default function Navbar() {
     return (
         <>
             <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
-                <div className='logo-cover1'>
+                {/* <div className='logo-cover1'>
                     <div className='logo-inside1'>
                         <img src={logow} className='logo' alt="" />
                     </div>
@@ -32,8 +34,12 @@ export default function Navbar() {
                         <h5>SENSATIONZ</h5>
                         <h3>Media & Arts</h3>
                     </div>
+                </div> */}
 
+                <div className='logo-cover1'>
+                    <img src={Logo} alt="" className='logo-img' />
                 </div>
+
                 {/* <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span> */}
                 <img src={MenuIcon} alt="" className='menu-icon' onClick={toggleMenu} />
                 <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
@@ -58,7 +64,7 @@ export default function Navbar() {
                         offset={-250}
                         durastion={500} className='btn'>Contact Us</Link> </li>
                 </ul>
-            </nav>
+            </nav >
         </>
     )
 }

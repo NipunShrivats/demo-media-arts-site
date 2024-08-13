@@ -34,7 +34,7 @@
 
 .hero-text .last-line {
     /* border: 2px solid red; */
-    font-size: 4.7rem;
+    /* font-size: 4.7rem; */
     font-weight: 600;
     color: #ffffff;
     width: 55rem;
@@ -65,13 +65,28 @@
     .hero-text h1 {
         font-size: 30px;
     }
+
+    .hero-text h1 {
+        font-size: 3rem;
+        max-width: 40rem;
+        margin: auto;
+        font-weight: 600;
+        /* border: 2px solid red; */
+    }
+
+    .hero-text .last-line {
+        font-weight: 600;
+        color: #ffffff;
+    }
+
 }
 
 @media(max-width:650px) {
     .hero-text h1 {
         font-size: 2.5rem;
-        max-width: 400px;
+        max-width: 20rem;
         margin: auto;
+        /* border: 2px solid red; */
     }
 
     .hero-text .last-line {

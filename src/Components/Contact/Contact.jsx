@@ -58,7 +58,10 @@ export default function Contact() {
 
                         <label htmlFor="">Write your messege here</label>
                         <textarea name="messege" rows='6' placeholder='Enter your messege...' required></textarea>
-                        <button type='submit' className='btn dark-btn'>Submit now</button>
+                        <div>
+                            <button type='submit' className='btn dark-btn'>Submit now</button>
+
+                        </div>
                     </form>
 
                     <span>{result}</span>

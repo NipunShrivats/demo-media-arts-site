@@ -13,3 +13,10 @@
     padding-bottom: .2rem;
 
 }
+
+
+@media(max-width:800px) {
+    .image {
+        height: 25rem;
+    }
+}

@@ -39,6 +39,11 @@ nav {
     width: 3.5rem;
 }
 
+.logo-img {
+    width: 20rem;
+}
+
+
 .logo-cover1 .logo-inside1 {
     display: flex;
     flex-direction: column;
@@ -59,16 +64,24 @@ nav {
     color: rgb(255, 255, 255);
 }
 
+nav ul {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35rem;
+}
+
 nav ul li {
+    /* border-bottom: 2px solid transparent; */
     display: inline-block;
     list-style: none;
-    margin: 5px 20px;
+    /* margin: 5px 20px; */
     font-style: 16px;
     cursor: pointer;
-    /* border-bottom: 2px solid transparent; */
     padding-bottom: .1rem;
     transition: 0.5s;
-    color: #fff;
+    color: white;
 }
 
 
@@ -103,13 +116,17 @@ nav span {
 /* ------------- media query ------------- */
 
 @media (max-width:1118px) {
-    .logo {
-        /* width: 140px; */
+    .logo-img {
+        /* border: 2px solid black; */
+        width: 18rem;
     }
 
-    nav ul li {
-        margin: 10px 15px;
+    nav ul {
+        /* border: 2px solid black; */
+        width: 30rem;
     }
+
+    nav ul li {}
 
     ul .btn {
         font-size: 14px;
@@ -117,14 +134,23 @@ nav span {
 
 }
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
+    .logo-img {
+        width: 15rem;
+    }
+
     nav {
         padding: 15px 0;
         z-index: 101;
     }
 
     nav ul {
+        /* border: 2px solid red; */
         position: fixed;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* gap: .2rem; */
         top: 0;
         right: 0px;
         bottom: 0;
@@ -133,6 +159,7 @@ nav span {
         padding-top: 70px;
         transition: ease-in-out 0.5s;
         z-index: 100;
+
     }
 
 
@@ -174,5 +201,10 @@ nav span {
     .logo-cover1 .logo-inside2 h3 {
         font-size: 2rem;
     }
+}
 
+@media (max-width:900px) {
+    .logo-img {
+        width: 12rem;
+    }
 }
