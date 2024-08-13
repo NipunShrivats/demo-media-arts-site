@@ -69,7 +69,11 @@
 @media(max-width:800px) {
     .about-img {
         /* border: 2px solid red; */
-        width: 100%;
+        width: 28rem;
+        background-size: cover;
+        background-position: center;
+        /* height: 22rem; */
+        height: 40vh;
     }
 
     .about {
@@ -118,4 +122,12 @@
         /* border: 2px solid red; */
     }
 
+}
+
+@media(max-width:600px) {
+    .about-img {
+        /* border: 2px solid red; */
+        width: 20rem;
+        height: 30vh;
+    }
 }
