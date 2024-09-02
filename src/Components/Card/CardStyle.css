@@ -2,7 +2,12 @@
     /* background-color: rgb(195, 195, 195); */
 }
 
-.image {}
+.paragraph{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 .name_ {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -11,9 +16,11 @@
     width: 100%;
     margin: 0%;
     padding-bottom: .2rem;
-
 }
 
+.read-about{
+    color: var(--theme-color-bg);
+}
 
 @media(max-width:800px) {
     .image {
