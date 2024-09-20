@@ -1,7 +1,7 @@
 import React from "react";
 import "./DirectorsStyle.css";
 import Card from "../Card/Card";
-import Harsh from "../../assets/imgAssets/harsh-anand.jpeg";
+import Harsh from "../../assets/imgAssets/harsh-anand-left.jpg";
 import Sucheta from "../../assets/imgAssets/sucheta-anand.jpeg";
 
 export default function Directors() {
