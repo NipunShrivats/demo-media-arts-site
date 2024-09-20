@@ -15,7 +15,7 @@ export default function Policy() {
           <h2 className="headers">Who we are</h2>
           <p>
             <b>Suggested text:</b> Our website address is:
-            https://sensationzdigital.com.
+            https://sensationzmediaandarts.com/
           </p>
         </div>
         <div>
