@@ -18,7 +18,7 @@ export default function Directors() {
         <Card
           img={Sucheta}
           name={"Mrs. Sucheta Anand"}
-          about1={`Mrs. Sucheta Anand, Director of operations (sensationz media), her dynamic personality and aggressive approach has given sensationz its super wings and took this company from 10 employees to 120 employees company & from 1 thoushand students to 1 lakh students worldwide.`}
+          about1={`Mrs. Sucheta Anand, Director of operations (sensationz media), her dynamic personality and aggressive approach has given sensationz its super wings and took this company from 10 employees to 120 employees company & from 1 thousand students to 1 lakh students worldwide.`}
           about2={`She also holds an important position as The Managing Editor of "The Bollywood Faces" magazine, besides being the backbone of the company, she is also a successful film producer, producing feature film like "Love aur Rajneeti" starring Ravi Kishan, short films starring Hiten Tejwani, Arun Bakshi, Manoj Bakshi and the list continues.`}
         />
       </div>
