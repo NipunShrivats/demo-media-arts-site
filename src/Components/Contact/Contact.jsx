@@ -40,7 +40,7 @@ export default function Contact() {
             Send a message <img src={msg_icon} alt="" />
           </h3>
           <p>
-            Feel fre to reach out through contact form or find our conact
+            Feel free to reach out through contact form or find our contact
             information below. your feedback, questions, and suggestions are
             important to us as we strive to provide exceptional service to our
             members.
@@ -50,7 +50,7 @@ export default function Contact() {
               <span>
                 <MdEmail />
               </span>
-              sensationzmediaandarts@gmail.com
+              thebollywoodfaces@gmail.com
             </li>
             <li>
               <span>

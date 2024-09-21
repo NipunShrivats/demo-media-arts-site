@@ -21,7 +21,7 @@ export default function Hero() {
           <h1 className="last-line">sensationz media & arts</h1>
           <p>
             At Sensationz Media & Arts, we have 4 major ventures,
-            <br /> know more about them by clicking on button given bellow..
+            <br /> know more about them by clicking on button given below..
           </p>
           <button className="btn">
             <Link to="services" smooth={true} offset={-210} durastion={500}>

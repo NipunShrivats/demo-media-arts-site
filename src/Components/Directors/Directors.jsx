@@ -11,7 +11,7 @@ export default function Directors() {
         <Card
           img={Harsh}
           name={"Mr. Harsh Anand"}
-          about1={` A Film Director, started way back in 2003, worked with top production houses like balaji telefilms, venus records and tapes, Jai mehta productions.`}
+          about1={`A Film Director, started way back in 2003, worked with top production houses like balaji telefilms, venus records and tapes, Jai mehta productions.`}
           about2={`Directed one of the top serial of indian television “kyunki saas bhi kabhi bahu thi”, directed film Starring Ravi kishan won best debut director award in dubai, even on OTT you can see his work on "MX Player", "Hungama" and many more. He is known for his creative genius. He also holds an important position as The Managing Editor of "The Bollywood Faces" Magazine,`}
           about3={`Besides being the backbone of the company, he is also a successful film producer- producing feature film "Love aur Rajneeti" starring Ravi Kishan, short films starring Hiten Tejwani, Arun Bakshi, Manoj Bakshi and the list continues.`}
         />
