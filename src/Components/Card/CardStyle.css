@@ -2,7 +2,7 @@
     /* background-color: rgb(195, 195, 195); */
 }
 
-.paragraph{
+.paragraph {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
     padding-bottom: .2rem;
 }
 
-.read-about{
+.read-about {
     color: var(--theme-color-bg);
 }
 
