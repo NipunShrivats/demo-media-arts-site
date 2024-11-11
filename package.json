@@ -1,5 +1,6 @@
 {
   "name": "mainsite",
+  "homepage":"https://sensationzmediaandarts.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
